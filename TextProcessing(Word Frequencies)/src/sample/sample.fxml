@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="211.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane fx:id="pnl" prefHeight="211.0" prefWidth="600.0" />
+      <JFXTextField fx:id="txtDirectory" editable="false" focusColor="#63b7cd" layoutX="93.0" layoutY="61.0" prefHeight="25.0" prefWidth="371.0" promptText="File Directory" unFocusColor="#37759e" AnchorPane.topAnchor="61.0" />
+      <JFXButton fx:id="btnCreate" buttonType="RAISED" layoutX="488.0" layoutY="129.0" onAction="#makeCreate" prefHeight="25.0" prefWidth="75.0" ripplerFill="#91bfc3" style="-fx-background-color: #cdfbff;" text="Create" AnchorPane.rightAnchor="37.0" AnchorPane.topAnchor="129.0" />
+      <JFXButton fx:id="btnImport" buttonType="RAISED" layoutX="488.0" layoutY="27.0" onAction="#makeImport" prefHeight="25.0" prefWidth="75.0" ripplerFill="#91bfc3" style="-fx-background-color: #cdfbff;" text="Import" AnchorPane.rightAnchor="37.0" AnchorPane.topAnchor="27.0" />
+      <JFXTextField fx:id="txtWord" focusColor="#63b7cd" layoutX="264.0" layoutY="127.0" prefHeight="25.0" prefWidth="200.0" promptText="Insert your word" unFocusColor="#37759e" AnchorPane.topAnchor="127.0" />
+      <JFXButton fx:id="btnCount" buttonType="RAISED" layoutX="488.0" layoutY="67.0" onAction="#makeCount" prefHeight="25.0" prefWidth="75.0" ripplerFill="#91bfc3" style="-fx-background-color: #cdfbff;" text="Count" AnchorPane.rightAnchor="37.0" AnchorPane.topAnchor="67.0" />
+   </children>
+</AnchorPane>
